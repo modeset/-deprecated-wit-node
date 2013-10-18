@@ -1,0 +1,29 @@
+{
+  "name"        : "wit-node",
+  "version"     : "0.0.1",
+  "description" : "wit-node: Easy interface for wit.ai natural language parsing",
+  "keywords"    : [ "wit.ai", "wit", "natural language parsing"],
+  "author"      : "Jeremy Jackson <jejacks0n@gmail.com>",
+  "main"        : "index.js",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "q": ">=0.9.7"
+  },
+  "devDependencies": {
+    "jasmine-node":  "1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modeset/wit-node"
+  },
+  "scripts": {
+    "test": "cake spec"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://en.wikipedia.org/wiki/MIT_License"
+  }]
+}

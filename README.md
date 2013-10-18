@@ -4,8 +4,8 @@ wit-node
 Easy interface for interacting with the [Wit.ai](http://wit.ai) natural language parsing API.
 
 This project will expand as the Wit.ai API expands, but as it stands there's a single endpoint. You can hit this
-endpoint easily with `Wit.message([your message])`, which returns that phrase or sentence into an object with an intent
-and entities if any were specified.
+endpoint easily with `Wit.message([your message])`, which uses Wit.ai to convert that phrase or sentence into an object
+with an intent and entities if any were specified.
 
 You will need to create a Wit.ai account and begin training it.
 
@@ -52,7 +52,7 @@ The confidence level that Wit determined.
 </dd>
 
 <dt> entities </dt><dd>
-Object of entities, which contain the value, and the start/end position within the message.
+Object of entities, which contain the value, and the start/end position within msgBody.
 </dd>
 
 </dl>

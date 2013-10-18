@@ -34,7 +34,7 @@ promise.then(function(result) {
 })
 ```
 
-## Result properties/methods
+### Result properties/methods
 
 <dl>
 
@@ -64,7 +64,7 @@ Object of entities, which contain the value, and the start/end position within m
 
 </dl>
 
-## Entity properties/methods
+### Entity properties/methods
 
 <dl>
 

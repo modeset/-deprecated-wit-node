@@ -27,7 +27,7 @@ promise.then(function(result) {
 })
 ```
 
-## Result / Entity properties
+## Result properties/methods
 
 <dl>
 
@@ -53,14 +53,28 @@ The confidence level that Wit determined.
 
 <dt> entities </dt><dd>
 Object of entities, which contain the value, and the start/end position within the message.
-```javascript
-{
-  start: [number] // the start position in msgBody.
-  end: [number] // the end position in msgBody.
-  value: [string] // the value as determined by Wit (might not be the same as body).
-  body: [string] // the actual value found in msgBody.
-}
-```
+</dd>
+
+</dl>
+
+## Entity properties/methods
+
+<dl>
+
+<dt> value </dt><dd>
+The value as determined by Wit (might not be the same as body).
+</dd>
+
+<dt> start </dt><dd>
+The start position index from msgBody.
+</dd>
+
+<dt> end </dt><dd>
+The end position index from msgBody.
+</dd>
+
+<dt> body </dt><dd>
+The actual value as specified in msgBody.
 </dd>
 
 </dl>

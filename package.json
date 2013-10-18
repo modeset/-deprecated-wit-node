@@ -1,6 +1,6 @@
 {
   "name"        : "wit-node",
-  "version"     : "0.0.1",
+  "version"     : "0.0.2",
   "description" : "wit-node: Easy interface for wit.ai natural language parsing",
   "keywords"    : [ "wit.ai", "wit", "natural language parsing"],
   "author"      : "Jeremy Jackson <jejacks0n@gmail.com>",

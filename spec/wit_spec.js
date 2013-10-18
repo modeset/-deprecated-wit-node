@@ -18,7 +18,7 @@ describe("Wit", function() {
       });
 
       runs(function() {
-        expect( res instanceof Wit.Response ).toBe(true);
+        expect( res instanceof Wit.Result ).toBe(true);
         expect( res.msgBody ).toBe('deploy master foo to bar');
         expect( res.intent ).toBe('deploy');
         expect( res.entities.branch instanceof Wit.Entity).toBe(true);

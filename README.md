@@ -15,7 +15,7 @@ You will need to create a Wit.ai account and begin training it.
 npm install wit-node@">=0.0.2"
 ```
 
-You'll need to set an environment variable named `WIT_TOKEN` or specify your token with `Wit.TOKEN = [your token]`.
+You'll need to set an environment variable named `WIT_TOKEN` or specify your token with `Wit.token = [your token]`.
 
 ```shell
 export WIT_TOKEN=[your token]

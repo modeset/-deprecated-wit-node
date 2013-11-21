@@ -1,6 +1,6 @@
 {
   "name"        : "wit-node",
-  "version"     : "0.0.3",
+  "version"     : "0.0.4",
   "description" : "wit-node: Easy interface for wit.ai natural language parsing",
   "keywords"    : [ "wit.ai", "wit", "natural language parsing"],
   "author"      : "Jeremy Jackson <jejacks0n@gmail.com>",
@@ -10,7 +10,7 @@
     "npm": "1.1.x"
   },
   "dependencies": {
-    "q": ">=0.9.7"
+    "q": "0.9.7"
   },
   "devDependencies": {
     "jasmine-node":  "1.5.0"

@@ -21,6 +21,8 @@ You'll need to set an environment variable named `WIT_TOKEN` or specify your tok
 export WIT_TOKEN=[your token]
 ```
 
+Alternatively, you can pass the token to `Wit.message()` as the second parameter.
+
 
 ## Usage
 

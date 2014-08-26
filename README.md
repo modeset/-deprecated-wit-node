@@ -44,11 +44,7 @@ promise.then(function(result) {
 Raw response object (parsed JSON)
 </dd>
 
-<dt> msgId </dt><dd>
-The unique message id provided back from Wit.
-</dd>
-
-<dt> msgBody </dt><dd>
+<dt> text </dt><dd>
 The original message sent.
 </dd>
 

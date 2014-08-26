@@ -1,7 +1,1 @@
-(function () {
-  "use strict";
-
-  module.exports = {
-    wit: require('./lib/wit.js')
-  };
-}());
+module.exports = require('./lib/wit.js');
